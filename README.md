@@ -5,10 +5,10 @@
 The data is from [Taipei Open data platform](http://data.taipei)
 
 ## Features
-Fetch information from [Taipei Open data platform](http://data.taipei) immediately.
-Parse the result to jsonobject.
-Make a listview for user to know how many places are under construncion.
-Put markers on map.
+- Fetch information from [Taipei Open data platform](http://data.taipei) immediately.
+- Parse the result to jsonobject.
+- Make a listview for user to know how many places are under construncion.
+- Put markers on map.
 
 ## Activities
 - MainActivity
