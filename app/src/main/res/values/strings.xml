@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">taipei_today_under_construction</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_form_activity_main">FormActivity</string>
+    <string name="toMapButton">Show in map</string>
+</resources>
