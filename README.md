@@ -41,7 +41,7 @@ before build and run
 - Data cache(limited geocoding api)
 - UI design
 - address preprocess(some address contains multiple place , which has no result after geoconding, for example 成功路一段32號、88號及松河街(向陽路口)共三處檢視井)
-- 
+- notification if some construction is nearby, sort list by the distance according to current location
 
 ## License
 Apache License 2.0
