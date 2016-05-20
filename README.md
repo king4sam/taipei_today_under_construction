@@ -18,12 +18,13 @@ Put markers on map.
 
 ## screenshot
 - listview
+
 ![listview](img/list.png)
-
 - listitem onclick
-![moreinfo](img/moreinfo.png)
 
+![moreinfo](img/moreinfo.png)
 - mapview
+
 ![mapview](img/map.png)
 
 ## api key
