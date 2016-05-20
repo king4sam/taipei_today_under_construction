@@ -33,7 +33,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        System.out.println("the kveyvvv");
 
         ConnectivityManager cm  = (ConnectivityManager) getSystemService(Context.CONNECTIVITY_SERVICE);
         NetworkInfo ninfo = cm.getActiveNetworkInfo();
@@ -55,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
                                 for(int i = 0 ; i < ja.length();i++){
                                     allinfo.add(ja.getJSONObject(i).toString());
                                     JSONObject repair = ja.getJSONObject(i);
-                                    System.out.println(i + " ADDRR " + repair.getString("ADDR"));
                                     tmp.add(repair.getString("ADDR"));
                                 }
                             } catch (JSONException e) {

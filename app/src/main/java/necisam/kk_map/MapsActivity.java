@@ -99,12 +99,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                             try {
                                 JSONObject jo = new JSONObject(response);
                                 JSONObject re = new JSONObject(jo.getString("result"));
-                                System.out.println("result + " + jo.getString("result"));
                                 JSONArray ja = re.getJSONArray("results");
                                 for(int i = 0 ; i < ja.length();i++){
                                     JSONObject repair = ja.getJSONObject(i);
                                     MapsActivity.this.result.put(repair.getString("_id"),repair.toString());
-                                    System.out.println("ADDR " + repair.getString("ADDR"));
 
                                     StringRequest stringRequest = new StringRequest(Request.Method.GET, ggeo+ URLEncoder.encode(repair.getString("ADDR").split("、")[0], "UTF-8")+mykey,
                                             new MyResponseListener(repair.getString("_id")), new Response.ErrorListener() {
