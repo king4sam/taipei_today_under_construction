@@ -32,6 +32,7 @@ before build and run
 ### replace MAPKEY in
 - app/src/debug/res/valuesgoogle_maps_api.xml
 - app/src.main/AndroidManifest.xml
+
 ### replace GEOKEY in 
 - app/src/main/java/necisam/kk_map/MapsActivity.java
 
